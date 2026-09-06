@@ -2,6 +2,8 @@ package Day3;
 
 //Conditional Statements
 
+import java.util.Scanner;
+
 public class IfElse {
 
     public static void main(String[] args) {

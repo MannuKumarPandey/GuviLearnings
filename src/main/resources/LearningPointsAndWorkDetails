@@ -1,0 +1,164 @@
+Game Joining Link (Learner Access): brainbox.zenclass.in/join-game
+
+
+Day 2:-
+--------------------------------------
+Memory basics -- few points to be discussed
+User input handling :- Discussed in Day4
+Downcasting and upcasting must be discussed once completing the inheritence:-
+
+Day 3:-
+--------------------------------
+Switch Statement one more time
+
+
+Day 4
+-------------------
+HW:
+1) Count even and odd number from 1 to 100 using do while loop
+2) count all the digits of an interger using while loop
+3) multiplication table for 7 using for loop
+4) reverse an integer using do while loop
+5) print 1 to N and N to 1 using while loop
+
+----------------------------------------------------------------------------------------------------------
+Day 5
+----------------------------------------------------------------------------------------------------------
+Home work Problems
+*************************************************
+Problem 1 — Employee Performance Analyzer
+A company has recorded the performance scores of n employees for a month.
+
+You are given an integer array scores.
+
+Write a program that:
+
+Finds the highest score.
+Finds the lowest score.
+Calculates the average score.
+Counts how many employees scored above the average.
+Searches for a given score and prints all indexes where it occurs.
+Prints the scores in reverse order.
+
+Example
+Input:
+scores = [70, 85, 90, 65, 90, 75]
+target = 90
+
+Output:
+Highest Score = 90
+Lowest Score = 65
+Average = 79.16
+Above Average = 3
+Target found at indexes = [2, 4]
+Reverse = [75, 90, 65, 90, 85, 70]
+********************************************
+
+Problem 2 — Monthly Sales Matrix
+A company has 3 sales teams working for 4 weeks.
+The sales data is:
+int[][] sales = {
+    {120, 150, 130, 170},
+    {200, 180, 210, 190},
+    {100, 140, 160, 120}
+};
+
+Where:
+row    → employee/team
+column → week
+
+
+Write a program that:
+
+Prints the complete matrix.
+Finds the total sales of each team.
+Finds the total sales of each week.
+Finds the team with the highest total sales.
+Finds the week with the highest total sales.
+Finds the highest individual sale.
+Prints the main diagonal only if the matrix is square.
+
+Expected conceptual output
+Team 1 Total = 570
+Team 2 Total = 780
+Team 3 Total = 520
+
+Highest Team = Team 2
+
+Week 1 Total = 420
+Week 2 Total = 470
+...
+***********************************************
+
+Problem 3 — Employee ID & Report Generator
+You have employee records:
+
+String[] names = {
+    "Rahul",
+    "Amit",
+    "Priya",
+    "Neha"
+};
+
+int[][] monthlyScores = {
+    {80, 85, 90},
+    {70, 75, 80},
+    {95, 90, 92},
+    {60, 65, 70}
+};
+
+Each row of monthlyScores belongs to the corresponding employee.
+
+For example:
+Rahul → 80, 85, 90
+Amit  → 70, 75, 80
+Priya → 95, 90, 92
+Neha  → 60, 65, 70
+
+Your task is to generate a complete employee report.
+
+Expected output
+===== EMPLOYEE PERFORMANCE REPORT =====
+
+Employee: Rahul
+Scores: 80, 85, 90
+Total: 255
+Average: 85.00
+Status: EXCELLENT
+
+Employee: Amit
+Scores: 70, 75, 80
+Total: 225
+Average: 75.00
+Status: GOOD
+
+Employee: Priya
+Scores: 95, 90, 92
+Total: 277
+Average: 92.33
+Status: EXCELLENT
+
+Employee: Neha
+Scores: 60, 65, 70
+Total: 195
+Average: 65.00
+Status: NEEDS IMPROVEMENT
+
+Condition::::::::::
+Status rules
+Average >= 90 → EXCELLENT
+Average >= 75 → GOOD
+Average >= 60 → AVERAGE
+Below 60     → NEEDS IMPROVEMENT
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+======================================================
+Problem 1: Student Result Processing System
+=======================================================
+Problem Statement
+
+Write a Java program to process the result of a student.
+The program should accept the student's name and marks in three subjects and display the total marks, percentage, grade and result status.
+Requirements
+Create the following methods:
+
+static int calculateTotal(int marks1, int marks2, int marks3)
+static double calculatePercentage(int total)
+static char calculateGrade(double percentage)
+static boolean isPassed(double percentage)
+static void displayResult(String name, int total,double percentage, char grade)
+
+Create another overloaded version of displayResult() that accepts only the student's name.
+
+Rules
+Passing percentage: 40%
+Grade A: 80% and above
+Grade B: 60% to 79%
+Grade C: 50% to 59%
+Grade D: 40% to 49%
+Grade F: below 40%
+
+Sample Input
+Name: Rahul
+Marks: 75 82 68
+
+Sample Output
+Student Name: Rahul
+Total Marks: 225
+Percentage: 75.0
+Grade: B
+Result: PASS
+
+
+=================================================================
+Problem 2: Recursive Number Analyzer
+=================================================================
+Problem Statement
+
+Write a Java program that performs different operations on a positive integer.
+The following operations must be implemented using recursion:
+
+Sum of digits
+Number of digits
+Reverse of the number
+Factorial
+
+Required Methods
+static int sumOfDigits(int n)
+static int countDigits(int n)
+static int reverseNumber(int n, int result)
+static long factorial(int n)
+
+Requirements
+Do not use loops for these four operations.
+Every recursive method must have a proper base condition.
+Identify the base condition for each method.
+Understand what would happen if the base condition were removed.
+
+Sample Input
+Number: 1234
+
+Sample Output
+Sum of digits: 10
+Number of digits: 4
+Reverse: 4321
+Factorial: 24
+
+===========================================================
+Problem 3: Bank Account Management System
+============================================================
+Problem Statement
+Create a simple bank account program.
+
+The program should maintain:
+Account Number
+Account Holder Name
+Balance
+
+The program should support deposit, withdrawal and account information display.
+
+Required Methods
+static double deposit(double balance, double amount)
+static double withdraw(double balance, double amount)
+static boolean canWithdraw(double balance, double amount)
+static void displayAccount(String accountNumber,String name,double balance)
+
+
+Method Overloading:
+Create another version of displayAccount():
+static void displayAccount(String accountNumber,String name)
+
+This version should display account information without displaying the balance.
+
+Rules
+Deposit amount must be greater than zero.
+Withdrawal amount must be greater than zero.
+Withdrawal should not be allowed if the balance is insufficient.
+Keep calculation logic and display logic in separate methods.
+
+Sample Input
+Account Number: ACC101
+Name: Rahul
+Initial Balance: 25000
+Deposit: 5000
+Withdrawal: 8000
+
+Sample Output
+Account Number: ACC101
+Account Holder: Rahul
+Final Balance: 22000

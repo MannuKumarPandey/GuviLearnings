@@ -1,0 +1,68 @@
+
+--------------------------------------------------------------
+Common Checked Exceptions(Compile time exceptions: Handling required at compile time )
+--------------------------------------------------------------
+Exception	                    Typical cause
+IOException	                    Input/output operation fails
+FileNotFoundException	        File doesn't exist
+SQLException	                Database operation problem
+ClassNotFoundException	        Class cannot be found
+InterruptedException	        Thread is interrupted
+ParseException	                Parsing fails
+ReflectiveOperationException    Reflection operation fails
+NoSuchMethodException	        Requested method doesn't exist
+NoSuchFieldException	        Requested field doesn't exist
+InstantiationException	        Object cannot be instantiated
+IllegalAccessException	        Access is not permitted
+
+
+------------------------------------------------------------------------------------
+Common Runtime Exceptions (Run time Exceptions: -No handling required at compile time)
+------------------------------------------------------------------------------------
+Exception	                        Typical cause
+ArithmeticException	                Illegal arithmetic, e.g. divide by zero
+NullPointerException	            Using a null reference
+ArrayIndexOutOfBoundsException	    Invalid array index
+StringIndexOutOfBoundsException	    Invalid String index
+NumberFormatException	            Invalid String-to-number conversion
+ClassCastException	                Invalid type casting
+IllegalArgumentException	        Invalid method argument
+IllegalStateException	            Method called at an inappropriate state
+UnsupportedOperationException	    Operation not supported
+NegativeArraySizeException	        Array created with negative size
+SecurityException	                Security violation
+ConcurrentModificationException	    Collection modified improperly during iteration
+IndexOutOfBoundsException	        Invalid index
+NoSuchElementException	            Requested element doesn't exist
+
+
+
+-----------------------------------------------------------------------------
+Collection Hierarchy
+------------------------------------------------------------------------------
+Collection Framework
+│
+├── List
+│   ├── ArrayList
+│   └── LinkedList
+│
+├── Set
+│   ├── HashSet
+│   ├── LinkedHashSet
+│   └── TreeSet
+│
+└── Queue
+    ├── PriorityQueue
+    └── Deque
+        └── ArrayDeque
+
+
+Map hierarchy is separate
+│
+├── HashMap
+├── LinkedHashMap
+└── TreeMap
+
+
+
+
